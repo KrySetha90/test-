@@ -7,6 +7,7 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
+    // Allow Android module build scripts to declare repositories when needed.
     repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         google()
