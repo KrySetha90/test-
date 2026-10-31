@@ -1,1 +1,10 @@
-
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // This classpath is required so Gradle can resolve the Android application plugin
+        classpath 'com.android.tools.build:gradle:8.1.1'
+    }
+}
